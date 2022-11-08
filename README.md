@@ -52,3 +52,25 @@ git flow release start 0.1.0
 ```
 git flow release finish 0.1.0
 ```
+
+### HotFix
+
+- Init a hotflix branch
+
+```
+git flow hotfix start readme-hotfix
+```
+
+- Finish a hotfix branch
+
+```
+git flow hotfix finish readme-hotfix
+```
+
+```md
+- Hotfix branch 'hotfix/readme-hotfix' has been merged into 'main'
+- The hotfix was tagged 'readme-hotfix'
+- Hotfix tag 'readme-hotfix' has been back-merged into 'develop'
+- Hotfix branch 'hotfix/readme-hotfix' has been locally deleted
+- You are now on branch 'develop'
+```
